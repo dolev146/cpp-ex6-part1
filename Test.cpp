@@ -1,9 +1,14 @@
 #include "doctest.h"
+#include "Game.cpp"
 
-TEST_CASE("TEAM test")
+/**
+ * @brief Demo program for TEAM exercise.
+ *  @author DOLEV DUBLON
+ * 
+ */
+TEST_CASE("TEAM test check no throw")
 {
-    for (int i = 0; i < 50; i++)
-    {
-        CHECK(1 == 1);
-    }
+    CHECK_NOTHROW(1);
+    CHECK_NOTHROW(Game());
+    
 }

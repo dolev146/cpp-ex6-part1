@@ -1,8 +1,8 @@
 /**
- * Demo program for mat exercise.
+ * Demo program for Team exercise.
  * 
- * Author: Tal Zichlinsky
- * Since : 2022-01
+ * Author: DOLEV DUBLON
+ * Since : 01/07/2022
  */
 
 
