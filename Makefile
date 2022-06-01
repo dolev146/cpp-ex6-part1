@@ -1,11 +1,10 @@
 #!make -f
 
 CXX=clang++-9 
-CXXFLAGS=-std=c++2a -Werror
-
-HEADERS=mat.hpp
-OBJECTS=mat.o
-SOURCES=mat.cpp
+CXXFLAGS=-std=c++2a 
+HEADERS=
+OBJECTS=Game.o Leauge.o Schedule.o Team.o Schedule.o
+SOURCES=Game.cpp Leauge.cpp Schedule.cpp Team.cpp Schedule.cpp
 
 run: demo
 	./$^
