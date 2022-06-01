@@ -1,13 +1,4 @@
-class Team
-{
-private:
-    /* data */
-public:
-    double skills;
-    Team(/* args */);
-    Team(double skills);
-    ~Team();
-};
+#include "Team.hpp"
 
 Team::Team(/* args */)
 {
@@ -21,4 +12,12 @@ Team::Team(double skills)
 
 Team::~Team()
 {
+}
+
+void Team::setScore(int score){
+    this->score = score;
+}
+
+int Team::getScore(){
+    return this->score;
 }

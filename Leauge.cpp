@@ -1,24 +1,19 @@
-/**
- * @brief Leauge.cpp
- * @author Dolev dublon
- * 
- */
-
-class Leauge
-{
-private:
-    /* data */
-public:
-
-    Leauge(/* args */);
-    ~Leauge();
-};
+#include "Leage.hpp"
 
 Leauge::Leauge(/* args */)
 {
-    
 }
 
 Leauge::~Leauge()
 {
+}
+
+void Leauge::setScore(int score)
+{
+    this->score = score;
+}
+
+int Leauge::getScore()
+{
+    return this->score;
 }

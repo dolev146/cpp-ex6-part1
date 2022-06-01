@@ -1,13 +1,13 @@
 #!make -f
 
 CXX=clang++-9 
-CXXFLAGS=-std=c++2a 
+CXXFLAGS=-std=c++2a -Wall
 HEADERS=
 OBJECTS=Game.o Leauge.o Schedule.o Team.o Schedule.o
 SOURCES=Game.cpp Leauge.cpp Schedule.cpp Team.cpp Schedule.cpp
 
-run: demo
-	./$^
+run: test
+	./test
 
 demo: Demo.o $(OBJECTS)
 	$(CXX) $(CXXFLAGS) $^ -o demo
